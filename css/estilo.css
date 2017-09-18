@@ -1,0 +1,71 @@
+.container {
+	margin-top: 20px;
+}
+
+.img-iniciar {
+	margin-top: 30px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.jogador {
+	margin-top: 20px;
+}
+
+.badge {
+	margin-left: 10px;
+}
+
+#palco_jogo {
+	display: none;
+}
+
+h1 {
+	color: #6207e3;
+	text-align: center; 
+}
+
+h1>small {
+	font-size: 14px;
+}
+
+.tabela {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.col00, .col10 {
+	width: 100px;
+	height: 100px;
+	border-bottom: 1px solid red;
+	border-right: 1px solid red;
+}
+.col01, .col11 {
+	width: 100px;
+	height: 100px;
+	border-bottom: 1px solid red;
+}
+.col02, .col12 {
+	width: 100px;
+	height: 100px;
+	border-bottom: 1px solid red;
+	border-left: 1px solid red;
+
+}
+
+
+
+.col20 {
+	width: 100px;
+	height: 100px;
+	border-right: 1px solid red;
+}
+.col21 {
+	width: 100px;
+	height: 100px;
+}
+.col22 {
+	width: 100px;
+	height: 100px;
+	border-left: 1px solid red;
+}

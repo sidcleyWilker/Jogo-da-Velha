@@ -11,8 +11,92 @@
 
 	<body>
 
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="page-header">
+						<h1>Jogo da Velha <small>Sidclei Wilker</small></h1>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div id="pagina_inicial" class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					
+					<div class="row">
+						<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+							<img src="imgs/jogador_1.png" class="img-responsive">
+							<input id="entrada_jogador1" type="text" class="form-control jogador" placeholder="Nome do jogador 1" maxlength="15">
+						</div>
+
+						<div class="col-xs-12 col-sm-12 col-md-8 col-lg-8">
+							<img id="btn_iniciar_jogo" src="imgs/iniciar.png" class="img-responsive img-iniciar">
+						</div>
+
+						<div class="col-xs-6 col-sm-6 col-md-2 col-lg-2">
+							<img src="imgs/jogador_2.png" class="img-responsive">
+							<input id="entrada_jogador2"  type="text" class="form-control jogador" placeholder="Nome do jogador 2" maxlength="15">
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+		<div id="palco_jogo" class="container">
+
+			<div class="row">
+					<div class="col-xs-12">
+						
+						<div class="row">
+							<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+								<div class="pull-right">
+									<img src="imgs/jogador_1.png" class="img-responsive">
+									<label id="nome_jogador1"></label><span class="badge">0</span>
+								</div>
+							</div>
+
+							<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+								<h1>X</h1>
+							</div>
+
+							<div class="col-xs-5 col-sm-5 col-md-5 col-lg-5">
+								<img src="imgs/jogador_2.png" class="img-responsive">
+								<label id="nome_jogador2"></label><span class="badge">0</span>
+							</div>
+						</div>
+
+					</div>
+			</div>
+
+			<div class="row">
+				<div class="col-xs-12">
+					<table class="tabela">
+						<tbody>
+							<tr class="linha1">
+								<td><div id="a-1" class="col00 jogada"></div></td>
+								<td><div id="a-2" class="col01 jogada"></div></td>
+								<td><div id="a-3" class="col02 jogada"></div></td>
+							</tr>
+							<tr class="linha2">
+								<td><div id="b-1" class="col10 jogada"></div></td>
+								<td><div id="b-2" class="col11 jogada"></div></td>
+								<td><div id="b-3" class="col12 jogada"></div></td>
+							</tr>
+							<tr class="linha3">
+								<td><div id="c-1" class="col20 jogada"></div></td>
+								<td><div id="c-2" class="col21 jogada"></div></td>
+								<td><div id="c-3" class="col22 jogada"></div></td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+
 		<script language='Javascript' src="js/jquery-3.2.1.js"></script>
 		<script language='Javascript' src="js/myjs.js"></script>
-		<script language='Javascript' src="js/bootstrap.min.js"></script>
 	</body>
 </html>
